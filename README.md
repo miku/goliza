@@ -3,7 +3,7 @@
 A clean, simple Go implementation of the ELIZA chatbot from 1966, by
 [Weizenbaum](https://web.stanford.edu/class/cs124/p36-weizenabaum.pdf).
 
-![](notes/p36-01.png)
+![](notes/p36-01-s.png)
 
 ## About
 
@@ -15,6 +15,8 @@ first time-sharing system.
 
 This implementation attempts to port the classic ELIZA DOCTOR script to Go,
 maintaining the pattern-matching approach and response structure.
+
+![](notes/screenshot-2026-01-09-133652-goliza-retro-1.png)
 
 ## Features
 
