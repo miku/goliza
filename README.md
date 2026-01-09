@@ -3,7 +3,7 @@
 A clean, simple Go implementation of the ELIZA chatbot from 1966, by
 [Weizenbaum](https://web.stanford.edu/class/cs124/p36-weizenabaum.pdf).
 
-![](notes/p36-01-s.png)
+[![](notes/p36-01-s.png)](https://web.stanford.edu/class/cs124/p36-weizenabaum.pdf)
 
 ## About
 
