@@ -24,6 +24,12 @@ maintaining the pattern-matching approach and response structure.
 - Classic DOCTOR script personality (Rogerian therapist)
 - Single-file implementation for simplicity
 
+## Install
+
+```bash
+$ go install github.com/miku/goliza@latest # will install "goliza" binary
+```
+
 ## Building
 
 ```bash
