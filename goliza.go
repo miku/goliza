@@ -19,6 +19,12 @@ import (
 	"time"
 )
 
+const banner = `
+░█▀▀░█░░░▀█▀░▀▀█░█▀█
+░█▀▀░█░░░░█░░▄▀░░█▀█
+░▀▀▀░▀▀▀░▀▀▀░▀▀▀░▀░▀
+`
+
 type Eliza struct {
 	keys   []*regexp.Regexp
 	values [][]string
@@ -452,13 +458,11 @@ var gPats = []pattern{
 //
 // ----------------------------------------------------------------------
 func commandInterface() {
-	fmt.Println(`
-▗▄▄▄▖▗▖   ▗▄▄▄▖▗▄▄▄▄▖ ▗▄▖
-▐▌   ▐▌     █     ▗▞▘▐▌ ▐▌
-▐▛▀▀▘▐▌     █   ▗▞▘  ▐▛▀▜▌
-▐▙▄▄▖▐▙▄▄▖▗▄█▄▖▐▙▄▄▄▖▐▌ ▐▌
-
-                          `)
+	fmt.Println(banner)
+	fmt.Println()
+	fmt.Println("paper (1966): https://web.stanford.edu/class/cs124/p36-weizenabaum.pdf")
+	fmt.Println("go version (2026): https://github.com/miku/goliza")
+	fmt.Println()
 	fmt.Println("Therapist")
 	fmt.Println("---------")
 	fmt.Println("Talk to the program by typing in plain English, using normal upper-")
