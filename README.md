@@ -3,17 +3,18 @@
 A clean, simple Go implementation of the ELIZA chatbot from 1966, by
 [Weizenbaum](https://web.stanford.edu/class/cs124/p36-weizenabaum.pdf).
 
-![](static/p36-weizenbaum.png)
+![](notes/p36-01.png)
 
 ## About
 
-ELIZA, created by Joseph Weizenbaum at MIT in the early 1960s, is widely
-considered the world's first chatbot. The original was written in MAD-SLIP on
-MIT's CTSS (Compatible Time-Sharing System), the world's first time-sharing
-system.
+ELIZA, created by [Joseph
+Weizenbaum](https://de.wikipedia.org/wiki/Joseph_Weizenbaum) at MIT in the
+early 1960s, is widely considered the world's first chatbot. The original was
+written in MAD-SLIP on MIT's CTSS (Compatible Time-Sharing System), the world's
+first time-sharing system.
 
 This implementation attempts to port the classic ELIZA DOCTOR script to Go,
-maintaining the original's pattern-matching approach and response structure.
+maintaining the pattern-matching approach and response structure.
 
 ## Features
 
