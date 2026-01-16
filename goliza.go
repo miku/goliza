@@ -461,7 +461,7 @@ func commandInterface() {
 	fmt.Println(banner)
 	fmt.Println()
 	fmt.Println("paper (1966): https://web.stanford.edu/class/cs124/p36-weizenabaum.pdf")
-	fmt.Println("go version (2026): https://github.com/miku/goliza")
+	fmt.Println("go implementation (2026): https://git.sr.ht/~miku/goliza")
 	fmt.Println()
 	fmt.Println("Therapist")
 	fmt.Println("---------")
