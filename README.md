@@ -26,6 +26,10 @@ maintaining the pattern-matching approach and response structure.
 - Classic DOCTOR script personality (Rogerian therapist)
 - Single-file implementation for simplicity
 
+## Appearance
+
+* [KI: Ein Traum oder Alptraum für die Bibliothek?](https://blog.ub.uni-leipzig.de/ki-ein-traum-oder-alptraum-fuer-die-bibliothek/)
+
 ## Install
 
 ```bash
